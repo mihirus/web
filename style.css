@@ -1,0 +1,100 @@
+#body {
+  	background-color: #cccccc;/*#353e47;*/
+}
+
+#top {
+	top:0px;
+	position:absolute;
+	margin-left: 20px;
+}
+
+#name {
+	font-family: 'Prompt', sans-serif;
+	color: #000000;
+	font-size: 6vw;
+	text-align: center;
+}
+
+#me_pic {
+
+}
+
+#me {
+	font-family: 'Sintony', sans-serif;
+	font-size: 36px;
+	color: #000000;
+}
+#me_txt {
+	font-family: 'Alef', sans-serif;
+	color: #000000;
+	font-size: 2vw;
+}
+
+#ballbot {
+	font-family: 'Sintony', sans-serif;
+	font-size: 2.5vw;
+	color: #000000;
+	margin-bottom: 1%; 
+}
+#ballbot_txt {
+	font-family: 'Alef', sans-serif;
+	color: #000000;
+	font-size: 1.5vw;
+	margin-bottom: 3%; 
+}
+
+
+
+#hyperloop {
+	font-family: 'Sintony', sans-serif;
+	font-size: 3vw;
+	color: #000000;
+}
+#hyperloop_txt {
+	font-family: 'Alef', sans-serif;
+	color: #000000;
+	font-size: 2vw;
+}
+
+
+
+#router {
+	font-family: 'Sintony', sans-serif;
+	font-size: 2.5vw;
+	color: #000000;
+	margin-bottom: 1%; 
+}
+#router_txt {
+	font-family: 'Alef', sans-serif;
+	color: #000000;
+	font-size: 1.5vw;
+	margin-bottom: 3%; 
+}
+
+
+#board {
+	font-family: 'Sintony', sans-serif;
+	font-size: 2.5vw;
+	color: #000000;
+	margin-bottom: 1%; 
+}
+#board_txt {
+	font-family: 'Alef', sans-serif;
+	color: #000000;
+	font-size: 1.5vw;
+	margin-bottom: 3%; 
+}
+
+
+#bike {
+	font-family: 'Sintony', sans-serif;
+	font-size: 2.5vw;
+	color: #000000;
+	margin-bottom: 1%; 
+}
+#bike_txt {
+	font-family: 'Alef', sans-serif;
+	color: #000000;
+	font-size: 1.5vw;
+	margin-bottom: 3%; 
+}
