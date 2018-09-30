@@ -1,11 +1,10 @@
-@import "https://fonts.googleapis.com/css?family=Alef|Shanti|Palanquin|Cormorant+Garamond|Josefin+Sans|Sintony|Trirong";
+@import "https://fonts.googleapis.com/css?family=Alef|Shanti|Palanquin|Cormorant+Garamond|Josefin+Sans|Sintony";
 
 
 
 .navbar-brand {
     color: #000000;
-    
-    font-size: 1.2em; 
+    font-size: 1.6em; 
 }
 
 .navlink {
@@ -36,8 +35,16 @@
     color: black;
 }
 
-#indexB {
+.caption {
+    font-family: 'Alef', sans-serif;
+    font-size: 1.4em;
+    color: #ccc;
+    position: relative;
+    text-align: center;
+    letter-spacing: 1px;
+    top: 80%;
 }
+
 
 #i1 {
     position: relative;
