@@ -17,6 +17,12 @@
     position: fixed;
     background-color: rgba(255,255,255,0.2);
 }
+
+.navbar .locked {
+	width: 100%;
+    position: fixed;
+}
+
 /* Style the links inside the navigation bar */
 .navbar a {
     float: center;
@@ -37,12 +43,16 @@
 
 .caption {
     font-family: 'Alef', sans-serif;
-    font-size: 1.4em;
-    color: #ccc;
+    font-size: 1.2em;
+    color: #fff;
     position: relative;
     text-align: center;
-    letter-spacing: 1px;
-    top: 80%;
+    letter-spacing: 0.2px;
+    top: 85%;
+}
+
+p span {
+	background-color: rgba(0,0,0,0.1);
 }
 
 
@@ -50,7 +60,7 @@
     position: relative;
     background: url('img/industrial.jpg');
     background-size: cover;
-    z-index: -1;   
+    z-index: -1; 
 }
 
 #i2 {
@@ -74,20 +84,47 @@
     z-index: -1;   
 }
 
+#r3 {
+    position: relative;
+    background: url('img/cnc_y1.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
 
 #l1 {
     position: relative;
-    background: url('img/industrial.jpg');
+    background: url('img/hq.jpg');
+    background-position: center;
     background-size: cover;
     z-index: -1;   
 }
 
 #l2 {
     position: relative;
-    background: url('img/ucsb.jpg');
+    background: url('img/podfront.jpg');
     background-size: cover;
     z-index: -1;   
 }
+
+#l3 {
+    position: relative;
+    background: url('img/podpan.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+#l4 {
+    position: relative;
+    background: url('img/me10.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;   
+}
+
+
+
 
 
 #bo1 {
@@ -112,23 +149,10 @@
     z-index: -1;   
 }
 
-#bi2 {
-    position: relative;
-    background: url('img/bamboo.jpg');
-    background-size: cover;
-    z-index: -1;   
-}
 
 #ba1 {
     position: relative;
     background: url('img/ballbot.jpg');
-    background-size: cover;
-    z-index: -1;   
-}
-
-#ba2 {
-    position: relative;
-    background: url('img/board_ptrain.jpg');
     background-size: cover;
     z-index: -1;   
 }
