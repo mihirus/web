@@ -79,7 +79,7 @@ p span {
 
 #r2 {
     position: relative;
-    background: url('img/cnc_close.jpg');
+    background: url('img/cnc_side.jpg');
     background-size: cover;
     z-index: -1;   
 }
@@ -87,6 +87,13 @@ p span {
 #r3 {
     position: relative;
     background: url('img/cnc_y1.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+#r4 {
+    position: relative;
+    background: url('img/render1.jpg');
     background-size: cover;
     z-index: -1;   
 }
@@ -114,6 +121,13 @@ p span {
     z-index: -1;   
 }
 
+#l5 {
+    position: relative;
+    background: url('img/motor.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
 #l4 {
     position: relative;
     background: url('img/me10.jpg');
@@ -122,8 +136,6 @@ p span {
     background-position: center;
     z-index: -1;   
 }
-
-
 
 
 
@@ -141,6 +153,28 @@ p span {
     z-index: -1;   
 }
 
+#bo3 {
+    position: relative;
+    background: url('img/board_ptrain.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+#bo4 {
+    position: relative;
+    background: url('img/top.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+#bo5 {
+    position: relative;
+    background: url('img/process.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+
 
 #bi1 {
     position: relative;
@@ -157,5 +191,7 @@ p span {
     z-index: -1;   
 }
 
-
-
+#vid {
+	min-width: 100%;
+	cursor: pointer;
+}
