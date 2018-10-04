@@ -1,0 +1,197 @@
+@import "https://fonts.googleapis.com/css?family=Alef|Josefin+Sans|Sintony";
+
+
+
+.navbar-brand {
+    color: #000000;
+    font-size: 1.6em; 
+}
+
+.navlink {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.navbar .locked {
+	width: 100%;
+    position: fixed;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: center;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.proj {
+    color: #000000;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: rgba(0,0,0,0.1);
+    color: black;
+}
+
+.caption {
+    font-family: 'Alef', sans-serif;
+    font-size: 1.2em;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    letter-spacing: 0.2px;
+    top: 85%;
+}
+
+p span {
+	background-color: rgba(0,0,0,0.1);
+}
+
+
+#i1 {
+    position: relative;
+    background: url('img/industrial-min.jpg');
+    background-size: cover;
+    z-index: -1; 
+}
+
+#i2 {
+    position: relative;
+    background: url('img/ucsb-min.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+#r1 {
+    position: relative;
+    background: url('img/cnc_board-min.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+#r2 {
+    position: relative;
+    background: url('img/cnc_side.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+#r3 {
+    position: relative;
+    background: url('img/cnc_y1.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+#r4 {
+    position: relative;
+    background: url('img/render1.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+
+#l1 {
+    position: relative;
+    background: url('img/hq.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: -1;   
+}
+
+#l2 {
+    position: relative;
+    background: url('img/podfront.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+#l3 {
+    position: relative;
+    background: url('img/podpan.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+#l5 {
+    position: relative;
+    background: url('img/motor.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+#l4 {
+    position: relative;
+    background: url('img/me10-min.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;   
+}
+
+
+
+#bo1 {
+    position: relative;
+    background: url('img/board_road-min.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+#bo2 {
+    position: relative;
+    background: url('img/board_main.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+#bo3 {
+    position: relative;
+    background: url('img/board_ptrain.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+#bo4 {
+    position: relative;
+    background: url('img/top.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+#bo5 {
+    position: relative;
+    background: url('img/process-min.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+
+
+#bi1 {
+    position: relative;
+    background: url('img/bike-min.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+
+#ba1 {
+    position: relative;
+    background: url('img/ballbot.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
+#vid {
+	min-width: 100%;
+	cursor: pointer;
+}
