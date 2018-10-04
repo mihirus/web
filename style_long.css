@@ -174,6 +174,13 @@ p span {
     z-index: -1;   
 }
 
+#bo5 {
+    position: relative;
+    background: url('img/board_control.jpg');
+    background-size: cover;
+    z-index: -1;   
+}
+
 
 
 #bi1 {
