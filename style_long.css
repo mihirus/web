@@ -7,9 +7,15 @@
     font-size: 1.6em; 
 }
 
-.navlink {
-    font-family: 'Josefin Sans', sans-serif;
+
+
+
+.gradient-icon {
+    height:80px;
+    background:linear-gradient(to bottom, #fff 0%, #fff 12%, transparent 12%, transparent 44%, #fff 44%, #fff 56%, transparent 56%, transparent 88%, #fff 88%, #fff 100%);
 }
+
+
 
 
 .navbar {
@@ -18,27 +24,17 @@
     background-color: rgba(255,255,255,0.2);
 }
 
-.navbar .locked {
-	width: 100%;
-    position: fixed;
-}
-
 /* Style the links inside the navigation bar */
 .navbar a {
     float: center;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-}
-
-.proj {
-    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 /* Change the color of links on hover */
 .navbar a:hover {
     background-color: rgba(0,0,0,0.1);
-    color: black;
 }
 
 .caption {
