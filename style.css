@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Roboto|Josefin+Sans|Sintony";
+@import "https://fonts.googleapis.com/css?family=Alef|Josefin+Sans|Sintony";
 
 
 /***Navbar styling goes here***/
@@ -132,7 +132,8 @@ button:focus, a:focus{
     background-position: center;
     z-index: -1;
     height:100vh;    
-}
+
+    }
 
 
 
@@ -215,7 +216,7 @@ button:focus, a:focus{
 
 
 .caption {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Alef', sans-serif;
     font-size: 1.2em;
     color: #000;
     position: relative;
