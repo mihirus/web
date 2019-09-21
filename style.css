@@ -42,6 +42,8 @@ button:focus, a:focus{
 
 /***page styling starts here***/
 
+
+
 #i1 {
     position: relative;
     background: url('img/industrial-min.jpg');
@@ -56,6 +58,54 @@ button:focus, a:focus{
     background-size: cover;
     z-index: -1;
     height:100vh;    
+}
+
+#c1{
+    position: relative;
+    background: url('img/nycview.jpg');
+    background-size: cover;
+    z-index: -1;
+    height:100vh;  
+}
+
+#c2{
+    position: relative;
+    background: url('img/dusk.jpg');
+    background-size: cover;
+    z-index: -1;
+    height:100vh;  
+}
+
+#c3{
+    position: relative;
+    background: url('img/bedstuy.jpg');
+    background-size: cover;
+    z-index: -1;
+    height:100vh;  
+}
+
+#c4{
+    position: relative;
+    background: url('img/subway.jpg');
+    background-size: cover;
+    z-index: -1;
+    height:100vh;  
+}
+
+#c5{
+    position: relative;
+    background: url('img/bleakhudson.jpg');
+    background-size: cover;
+    z-index: -1;
+    height:100vh;  
+}
+
+#c6{
+    position: relative;
+    background: url('img/columbia.jpg');
+    background-size: cover;
+    z-index: -1;
+    height:100vh;  
 }
 
 #r1 {
