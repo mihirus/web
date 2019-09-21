@@ -62,7 +62,7 @@ button:focus, a:focus{
 
 #c1{
     position: relative;
-    background: url('img/nycview.jpg');
+    background: url('img/nycview.jpeg');
     background-size: cover;
     z-index: -1;
     height:100vh;  
@@ -70,7 +70,7 @@ button:focus, a:focus{
 
 #c2{
     position: relative;
-    background: url('img/dusk.jpg');
+    background: url('img/dusk.jpeg');
     background-size: cover;
     z-index: -1;
     height:100vh;  
@@ -78,7 +78,7 @@ button:focus, a:focus{
 
 #c3{
     position: relative;
-    background: url('img/bedstuy.jpg');
+    background: url('img/bedstuy.jpeg');
     background-size: cover;
     z-index: -1;
     height:100vh;  
@@ -86,7 +86,7 @@ button:focus, a:focus{
 
 #c4{
     position: relative;
-    background: url('img/subway.jpg');
+    background: url('img/subway.jpeg');
     background-size: cover;
     z-index: -1;
     height:100vh;  
@@ -94,7 +94,7 @@ button:focus, a:focus{
 
 #c5{
     position: relative;
-    background: url('img/bleakhudson.jpg');
+    background: url('img/bleakhudson.jpeg');
     background-size: cover;
     z-index: -1;
     height:100vh;  
@@ -102,7 +102,7 @@ button:focus, a:focus{
 
 #c6{
     position: relative;
-    background: url('img/columbia.jpg');
+    background: url('img/columbia.jpeg');
     background-size: cover;
     z-index: -1;
     height:100vh;  
@@ -249,6 +249,14 @@ button:focus, a:focus{
 #ba1 {
     position: relative;
     background: url('img/ballbot.jpg');
+    background-size: cover;
+    z-index: -1;
+    height:100vh;    
+}
+
+#ba2 {
+    position: relative;
+    background: url('img/light.png');
     background-size: cover;
     z-index: -1;
     height:100vh;    
