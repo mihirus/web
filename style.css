@@ -246,7 +246,16 @@ button:focus, a:focus{
 }
 
 
+
 #ba1 {
+    position: relative;
+    background: url('img/ballbot_v2.jpg');
+    background-size: cover;
+    z-index: -1;
+    height:100vh;    
+}
+
+#ba2 {
     position: relative;
     background: url('img/ballbot.jpg');
     background-size: cover;
@@ -254,7 +263,7 @@ button:focus, a:focus{
     height:100vh;    
 }
 
-#ba2 {
+#ba3 {
     position: relative;
     background: url('img/light.png');
     background-size: cover;
