@@ -46,7 +46,7 @@ button:focus, a:focus{
 
 #i1 {
     position: relative;
-    background: url('img/industrial-min.jpg');
+    background: url('img/industrial-min.jpg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;  
@@ -54,7 +54,15 @@ button:focus, a:focus{
 
 #i2 {
     position: relative;
-    background: url('img/ucsb-min.jpg');
+    background: url('img/ucsb-min.jpg') right;
+    background-size: cover;
+    z-index: -1;
+    height:100vh;    
+}
+
+#io1 {
+    position: relative;
+    background: url('img/ionic_render.jpg') left;
     background-size: cover;
     z-index: -1;
     height:100vh;    
@@ -62,7 +70,7 @@ button:focus, a:focus{
 
 #c1{
     position: relative;
-    background: url('img/nycview.jpeg');
+    background: url('img/nycview.jpeg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;  
@@ -70,7 +78,7 @@ button:focus, a:focus{
 
 #c2{
     position: relative;
-    background: url('img/dusk.jpeg');
+    background: url('img/dusk.jpeg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;  
@@ -78,7 +86,7 @@ button:focus, a:focus{
 
 #c3{
     position: relative;
-    background: url('img/bedstuy.jpeg');
+    background: url('img/bedstuy.jpeg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;  
@@ -86,7 +94,7 @@ button:focus, a:focus{
 
 #c4{
     position: relative;
-    background: url('img/subway.jpeg');
+    background: url('img/subway.jpeg') right;
     background-size: cover;
     z-index: -1;
     height:100vh;  
@@ -94,7 +102,7 @@ button:focus, a:focus{
 
 #c5{
     position: relative;
-    background: url('img/bleakhudson.jpeg');
+    background: url('img/bleakhudson.jpeg') right;
     background-size: cover;
     z-index: -1;
     height:100vh;  
@@ -102,7 +110,7 @@ button:focus, a:focus{
 
 #c6{
     position: relative;
-    background: url('img/columbia.jpeg');
+    background: url('img/columbia.jpeg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;  
@@ -110,7 +118,7 @@ button:focus, a:focus{
 
 #r1 {
     position: relative;
-    background: url('img/cnc_board-min.jpg');
+    background: url('img/cnc_board-min.jpg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;    
@@ -118,7 +126,7 @@ button:focus, a:focus{
 
 #r2 {
     position: relative;
-    background: url('img/cnc_side.jpg');
+    background: url('img/cnc_side.jpg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;    
@@ -126,7 +134,7 @@ button:focus, a:focus{
 
 #r3 {
     position: relative;
-    background: url('img/cnc_y1.jpg');
+    background: url('img/cnc_y1.jpg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;    
@@ -134,7 +142,7 @@ button:focus, a:focus{
 
 #r4 {
     position: relative;
-    background: url('img/render1.jpg');
+    background: url('img/render1.jpg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;    
@@ -143,8 +151,7 @@ button:focus, a:focus{
 
 #l1 {
     position: relative;
-    background: url('img/hq.jpg');
-    background-position: center;
+    background: url('img/hq.jpg') left;
     background-size: cover;
     z-index: -1;
     height:100vh;    
@@ -152,7 +159,7 @@ button:focus, a:focus{
 
 #l2 {
     position: relative;
-    background: url('img/podfront.jpg');
+    background: url('img/podfront.jpg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;    
@@ -160,7 +167,7 @@ button:focus, a:focus{
 
 #l3 {
     position: relative;
-    background: url('img/podpan.jpg');
+    background: url('img/podpan.jpg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;    
@@ -168,7 +175,7 @@ button:focus, a:focus{
 
 #l4 {
     position: relative;
-    background: url('img/motor.jpg');
+    background: url('img/motor.jpg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;    
@@ -176,7 +183,7 @@ button:focus, a:focus{
 
 #l5 {
     position: relative;
-    background: url('img/me10-min.jpg');
+    background: url('img/me10-min.jpg') center;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -189,23 +196,7 @@ button:focus, a:focus{
 
 #bo1 {
     position: relative;
-    background: url('img/board_road-min.jpg');
-    background-size: cover;
-    z-index: -1;
-    height:100vh;    
-}
-
-#bo3 {
-    position: relative;
-    background: url('img/board_main.jpg');
-    background-size: cover;
-    z-index: -1;
-    height:100vh;    
-}
-
-#bo5 {
-    position: relative;
-    background: url('img/board_ptrain.jpg');
+    background: url('img/board_road-min.jpg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;    
@@ -213,7 +204,23 @@ button:focus, a:focus{
 
 #bo2 {
     position: relative;
-    background: url('img/top.jpg');
+    background: url('img/top.jpg') right;
+    background-size: cover;
+    z-index: -1;
+    height:100vh;    
+}
+
+#bo3 {
+    position: relative;
+    background: url('img/board_main.jpg') left;
+    background-size: cover;
+    z-index: -1;
+    height:100vh;    
+}
+
+#bo5 {
+    position: relative;
+    background: url('img/board_ptrain.jpg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;    
@@ -221,7 +228,7 @@ button:focus, a:focus{
 
 #bo6 {
     position: relative;
-    background: url('img/process-min.jpg');
+    background: url('img/process-min.jpg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;    
@@ -229,7 +236,7 @@ button:focus, a:focus{
 
 #bo4 {
     position: relative;
-    background: url('img/board_control.jpg');
+    background: url('img/board_control.jpg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;    
@@ -239,7 +246,7 @@ button:focus, a:focus{
 
 #bi1 {
     position: relative;
-    background: url('img/bike-min.jpg');
+    background: url('img/bike-min.jpg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;    
@@ -249,7 +256,7 @@ button:focus, a:focus{
 
 #ba1 {
     position: relative;
-    background: url('img/ballbot_v2.jpg');
+    background: url('img/ballbot_v2.jpg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;    
@@ -257,7 +264,7 @@ button:focus, a:focus{
 
 #ba2 {
     position: relative;
-    background: url('img/ballbot.jpg');
+    background: url('img/ballbot.jpg') center;
     background-size: cover;
     z-index: -1;
     height:100vh;    
@@ -265,7 +272,7 @@ button:focus, a:focus{
 
 #ba3 {
     position: relative;
-    background: url('img/light.png');
+    background: url('img/light.png') center;
     background-size: cover;
     z-index: -1;
     height:100vh;    

@@ -187,12 +187,14 @@ p span {
 }
 
 
-#ba4 {
+
+#ba5 {
     position: relative;
     background: url('img/ballbot.jpg');
     background-size: cover;
     z-index: -1;   
 }
+
 
 #vid {
 	min-width: 100%;
