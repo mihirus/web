@@ -62,7 +62,15 @@ button:focus, a:focus{
 
 #io1 {
     position: relative;
-    background: url('img/ionic_render.jpg') left;
+    background: url('img/final_proto.jpg') left;
+    background-size: cover;
+    z-index: -1;
+    height:100vh;    
+}
+
+#io2 {
+    position: relative;
+    background: url('img/weight.jpg') left;
     background-size: cover;
     z-index: -1;
     height:100vh;    
